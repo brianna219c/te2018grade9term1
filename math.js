@@ -2,20 +2,39 @@
 let num1 = 5;
 let num2 = 10;
 
+// save the sum of num1 and num2 into a Variables
+let sum = num1 + num2;
+console.log(num1);
+console.log(num2);
+console.log(sum);
+
+//difference = num1 - num2
+console.log('jkkjhhkhiu');
+
+//save the product of num1 and num2 into a variable
+let product = num1 * num2;
+console.log(product);
+
+//save the power of num1 and num2 into a variable
+
 // **** Problem 1 ****
 // Store the sum of num1 and num2 in a variable.
 // Print the sum.
-let sum = num1 + num2;
+sum = num1 + num2;
 console.log(sum);
 
 // **** Problem 2 ****
 // Store the difference between sum (above) and 7 in a variable.
 // Print the difference.
+let diff = sum - 7;
+console.log('ggfghftyfytf');
 
 
 // **** Problem 3 ****
 // Store the product of difference and 3 in a variable.
 // Print the product.
+let product = diff * 3;
+console.log(product);
 
 
 // **** Problem 4 ****
