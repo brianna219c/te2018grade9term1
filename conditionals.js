@@ -5,8 +5,12 @@ const READLINE = require("readline-sync");
 // an adult. Write code that prints whether or not someone can see an
 // R-rated movie.
 console.log("*** Problem 1: R-rated ***");
-let age = READLINE.question("Enter your age: ");
+let age = READLINE.question("Enter your age?");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
+if (age <= 18) {
+  console.log('YOU CAN SEE THE MOVIE')
+if (withAdult )
+}
 
 
 // **** Problem 2: Umbrella ****
