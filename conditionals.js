@@ -9,7 +9,8 @@ let age = READLINE.question("Enter your age?");
 let withAdult = READLINE.question("Are you with an adult? (yes or no): ");
 if (age <= 18) {
   console.log('YOU CAN SEE THE MOVIE')
-if (withAdult )
+if (withAdult = "no")
+   console.log('You cant see the movie')
 }
 
 
@@ -21,6 +22,8 @@ if (withAdult )
 console.log("*** Problem 2: Umbrella ***");
 let raining = READLINE.question("Is it raining? (yes or no): ");
 let thunderstorming = READLINE.question("Is it thunderstorming? (yes or no): ");
+if (raining = 'yes')
+console.log('bring ')
 
 
 // **** Problem 3: Monkey Trouble ****

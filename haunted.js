@@ -3,24 +3,39 @@ const READLINE = require("readline-sync");
 // use whatever properties you want for the player object
 let player = {
   name: undefined,
-  courage: 0,
-  intellect: 0,
-  strength: 0,
-  charm: 0,
-  weapon: "fists",
-  item: "flashlight",
+  courage: 100,
+  intellect: 98,
+  strength: 100,
+  charm: 80,
+  weapon: "AK47",
+  item: "phone",
 };
 
 console.log();
-console.log("*** WELCOME TO THE HAUNTED HOUSE ***");
-player.name = READLINE.question("What is your name?: ");
-console.log(`${player.name} stands in front of a spooky haunted house.`);
-console.log(`${player.name} hears what sounds like screaming coming from inside the house.`);
-let enterHouse = READLINE.question("Will you enter the house? (yes or no) ");
+console.log("*** WELCOME TO THE HAUNTED HOUSE PARTY ***");
+player.name = READLINE.question("What is your name?");
+console.log(`${player.name} hears that there is a party tonight`);
+let enterHouse = READLINE.question("Will you go to the party (yes or no) ");
 if(enterHouse == "y" || enterHouse == "yes") {
   player.courage++;
-  console.log(`${player.name} prepares their ${player.weapon} and opens the door...`);
+  console.log(`${player.name} gets their ${player.item} and leaves home, then heads to the party...`);
   // continue the story
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 } else {
   player.intellect++;
