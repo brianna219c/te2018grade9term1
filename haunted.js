@@ -19,7 +19,7 @@ let partyTime = READLINE.question("Will you go to the party (yes or no) ");
 
 if(partyTime== "y" || partyTime == "yes") {
 
-} if(partyTime== "n" || partyTime == "no") {
+} //if(partyTime== "n" || partyTime == "no") {
 
 }player.courage++;
   console.log(`${player.name} gets their ${player.item} and leaves home, then heads to the party...`);
